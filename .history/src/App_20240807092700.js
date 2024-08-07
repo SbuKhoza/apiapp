@@ -1,16 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import Menu from './components/Menu'
-import NewsGrid from './components/NewsGrid'
 import './App.css';
 
 function App() {
-  const [items, setItems] = useState([]) //state variables
-
   return (
     <div className="App">
-      <h1 className='title'>Latest Sports News</h1>
-      <Menu />
-      <NewsGrid />
       
     </div>
   );

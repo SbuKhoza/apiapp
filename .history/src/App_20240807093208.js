@@ -4,7 +4,7 @@ import NewsGrid from './components/NewsGrid'
 import './App.css';
 
 function App() {
-  const [items, setItems] = useState([]) //state variables
+  const [items, setItems] = useState(])
 
   return (
     <div className="App">
