@@ -1,0 +1,1 @@
+import NewsItem from './NewsItems'
