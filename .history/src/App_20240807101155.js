@@ -8,7 +8,7 @@ function App() {
   const [active, setActive] = useState(1)
   const [category, setCategory] = useState("general")
 
-  //use effect hook
+  //use effect
   useEffect(() => {
 
   })  

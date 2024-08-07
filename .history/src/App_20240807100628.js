@@ -6,12 +6,7 @@ import './App.css';
 function App() {
   const [items, setItems] = useState([]) //state variables
   const [active, setActive] = useState(1)
-  const [category, setCategory] = useState("general")
-
-  //use effect hook
-  useEffect(() => {
-
-  })  
+  
 
   return (
     <div className="App">
