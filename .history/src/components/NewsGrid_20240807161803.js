@@ -12,7 +12,7 @@ const NewsGrid = () => {
         const getArticles = async () => {
             const response = await axios.get('https://newsapi.org/v2/top-headlines?country=za&category=sports&apiKey=1dc3148b53ff4513bf5681d1fb034771')
             console.log(response);
-            console.log(response.data.articles);
+            
             setArticles(response.data.articles)
         }
 
