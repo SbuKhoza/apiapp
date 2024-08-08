@@ -10,7 +10,7 @@ const NewsGrid = () => {
 
     useEffect(() => {
         const getArticles = async () => {
-            const response = await axios.get('https://newsapi.org/v2/top-headlines?country=za&category=sports&apiKey=1dc3148b53ff4513bf5681d1fb034771')
+            const response = await axios.get('https://newsapi.org/v2/everything?q=english%20premier%20league&apiKey=1dc3148b53ff4513bf5681d1fb034771')
             console.log(response);
             console.log(response.data.articles);
             setArticles(response.data.articles)
@@ -25,6 +25,7 @@ const NewsGrid = () => {
         {articles.map(article => {
             return (
                 <NewsItem
+                  key={article.url}
                   title={article.title}
                   description={article.description}
                   url={article.url}
