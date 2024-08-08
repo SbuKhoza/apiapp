@@ -1,0 +1,14 @@
+/* .setArticles {
+    display: flex;
+
+} */
+
+.newsframe{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+}
+
+NewsItem {
+    border: 1px solid
+}

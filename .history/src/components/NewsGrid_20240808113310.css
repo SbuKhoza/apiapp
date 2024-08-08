@@ -1,0 +1,8 @@
+.NewsGrid {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.NewsItem {
+
+}

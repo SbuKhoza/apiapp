@@ -1,0 +1,8 @@
+.news-grid {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+News-Item {
+    
+}

@@ -1,0 +1,8 @@
+.News {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+NewsItem {
+
+}
