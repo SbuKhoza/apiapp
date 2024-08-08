@@ -1,8 +1,8 @@
 import React from 'react'
-import './NewsItem.css'
+import './NewsGrid.css'
 
 const NewsItem = ({ title, description, url, urlToImage }) => {
-// const defaultImage = 'image.jpg'; //some of the news might not have an image so I created a fallback image if urlToImage is null
+const defaultImage = 'news.jpg'; //some of the news might not have an image so I created a fallback image if urlToImage is null
 
   return (
     <div className='content'>
