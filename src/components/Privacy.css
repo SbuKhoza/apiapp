@@ -1,0 +1,32 @@
+.privacy-popup {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+  }
+  
+  .privacy-popup-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .privacy-popup button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .privacy-popup button:hover {
+    background-color: #45a049;
+  }
+  

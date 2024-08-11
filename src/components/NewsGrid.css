@@ -208,7 +208,7 @@ ul li a:hover {
     cursor: pointer;
     font-size: 24px;
     padding: 10px;
-    color: white; /* Ensure the icon is visible */
+    color: white; 
   }
 
   nav {
